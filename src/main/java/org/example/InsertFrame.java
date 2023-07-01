@@ -39,8 +39,6 @@ class InsertFrame extends JInternalFrame implements ActionListener
         lbl = new JLabel(str[txt.length-1]);
         this.add(lbl);
 
-//        txt[txt.length-1] = new JTextField();
-//        this.add(txt[txt.length-1]);
         dateChooser = new JDateChooser();
         dateChooser.setMaxSelectableDate(java.sql.Date.valueOf(LocalDate.now()));
 
