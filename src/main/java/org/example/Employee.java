@@ -22,6 +22,8 @@ public class Employee {
     }
     public static void main(String[] args)
     {
+        int b=4,c=6;
+        int a = b+c;
         MyFrame f = new MyFrame();
     }
 }
